@@ -26,4 +26,13 @@ morse = {"a": ".-",
          "z": "--.."}
 
 
+
+
+
+
+
+
+
+
+
 def decode_from_morse(code):
