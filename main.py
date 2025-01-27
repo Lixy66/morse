@@ -26,8 +26,5 @@ morse = {"a": ".-",
          "z": "--.."}
 
 
-def encode_to_morse(text):
-    for i in input().lower().split():
-        print(*[morse[j] for j in i])
-
+def decode_from_morse(code):
 
