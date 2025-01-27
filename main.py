@@ -29,3 +29,8 @@ morse = {"a": ".-",
 def decode_from_morse(code):
     for i in input().lower().split():
         print(*[morse[j] for j in i])
+
+
+def main():
+
+
